@@ -7,9 +7,21 @@
 ## Steps on how I make this game
 A few things that are required in this game are:
 * Step 1: Move the turtle with keypress
-* Step 2: Create and move cars horizontally and randomly
+  * Create a screen of your game with selected width and height. This will be used to determine your starting and finishing line
+  * Create turtle as "player"
+  * Assign keypress using screen.onkey()
+* Step 2: Create and move cars horizontally
+  * Create cars with random y-coordinate generated
+  * Lengthen the shape to make it as "car"
 * Step 3: Detect the collision with car
+  * Ends the game without exiting the screen using screen.exitonclick()
 * Step 4: Detect turtle when reaching the other side
+  * Increase difficulty by increasing the car_speed
 * Step 5: Create scoreboard
+  * Shows the current level of the game
+  * Shows "Game Over"
 
-###### I created this game in Pycharm instead VSCode.
+
+###### Remark:
+1. My code doesn't work when I assign a variable named "car" with class Car (raises AttributeError where it called on class Turtle instead Car) but it works when I use other name than "car" such as "vehicle" or "bus" and I donno why :/
+2. I created this game in Pycharm
