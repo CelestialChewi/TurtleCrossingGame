@@ -2,7 +2,7 @@
 1. A turtle moves forwards when you press the "Up" key. It can only move forwards, not back, left or right.
 2. Cars are randomly generated along the y-axis and will move from the right edge of the screen to the left edge.
 3. When the turtle reaches at the other end, you pass the level and +1 in your scoreboard
-4. Each level passes, the car's movement speed and the number of car created will increase
+4. Each level passes, the car's movement speed
 
 ## Steps on how I make this game
 A few things that are required in this game are:
